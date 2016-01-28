@@ -1,0 +1,167 @@
+/**
+ * CSSReset.com - How To Keep Footer At Bottom of Page with CSS
+ *
+ * Original Tutorial: http://www.cssreset.com/2010/css-tutorials/how-to-keep-footer-at-bottom-of-page-with-css/
+ * License: Free - do whatever you like with it! Credit and linkbacks much appreciated.
+ *
+ * NB: Make sure the value for 'padding-bottom' on #content is equal to or greater than the height of #footer.
+ */
+html,
+body {
+	margin:0;
+	padding:0;
+	height:100%;
+}
+#wrapper {
+	min-height:100%;
+	position:relative;
+}
+#header {
+	background:#ededed;
+	padding:10px;
+}
+#content {
+	padding-bottom:100px; /* Height of the footer element */
+}
+#footer {
+	background:#ffab62;
+	width:100%;
+	height:100px;
+	position:absolute;
+	bottom:0;
+	left:0;
+}
+
+/*Start of stylesheet*/
+@import url(https://fonts.googleapis.com/css?family=Oswald|Ubuntu|Open+Sans);
+
+body {
+    font-family: 'Oswald', sans-serif;
+}
+h1{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+h2{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/*Header and general*/
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #DDDED2;
+    font-size: 20px;
+}
+p{
+    color: #B7B8AE;
+}
+.head {
+    width: 100%;
+    background-color: #54575D;
+    height: 100px;
+    top: 0;
+    background-size: cover;
+}
+#title {
+    color: yellow;
+    width: 30%;
+    margin-left: 20px;
+}
+.head h1 , p{
+    display: inline-block;
+}
+
+#titleright {
+    color: white;
+    width: 30%;
+    margin-left: 35%;
+    margin-bottom: 40px;
+}
+.paragraph {
+   background-color: white;
+    background-repeat: no-repeat;
+    margin: 20px 0;
+    padding: 15px;
+}
+
+/*First section*/
+#email {
+    background-image: url(assets/big_img.jpg);
+    background-size: cover;
+    height: auto;
+}
+.align-left{
+    width: 25%;
+}
+#one{
+   font-weight:bold;
+    font-size: 28px;
+}
+#two {
+    font-weight: 100;
+    font-style: italic;
+}
+
+/*Second section*/
+#blog{
+    display: block;
+}
+#but-color{
+    background-color: dimgray;
+    border-radius: 25px;
+    color: white;
+    padding: 2px;
+    width: 120px;
+}
+#but-color p{
+    color: white;
+}
+/*Third section*/
+#use .pic{
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+}
+/*Fourth section and fifth sections*/
+.left{
+    float: left;
+    width: 40%;
+}
+.right{
+    float: right;
+    width: 40%;
+}
+#phone,#shoe{
+    height: 260px;
+}
+/*Sixth section*/
+#ad{
+    clear: both;
+    background-color: #49FF4F;
+    text-align: center;
+}
+#ad p{
+    color: white;
+}
+
+/*Footer*/
+footer{
+    background-color:#54575D;
+    padding: 20px;
+    bottom: 0;
+    height: 100px;
+    line-height: 30px;
+}
+.foote{
+    color: yellow;
+    margin: 0 auto;
+    padding-left: 33%;
+}
+.foot{
+    color: yellow;
+    margin: 0 auto;
+    padding-left: 40%;
+}
+
